@@ -1,0 +1,13 @@
+server:
+  port: 8089
+  servlet:
+    path: /
+spring:
+  thymeleaf:
+    cache: false
+  datasource:
+    url: jdbc:mysql://localhost:3306/day01
+    username: root
+    password: 2274xxx
+mybatis:
+  type-aliases-package: com.blb.pojo
